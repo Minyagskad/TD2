@@ -1,0 +1,106 @@
+/* Fichier: assets/css/style.css */
+
+/* Style général de la page HTML */
+html {
+    background-color: #800080; /* Couleur d'arrière-plan claire */
+    font-size: 14px; /* Taille de police */
+    width: 100vw; /* Largeur maximale de la vue */
+    margin: 0;
+    padding: 0;
+}
+
+/* Augmentation de la taille des titres */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #2c3e50;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #34495e;
+}
+
+/* Division principale qui couvre tout le contenu */
+#page {
+    width: 80%; /* Largeur inférieure à 100% */
+    margin: 0 auto; /* Centrage horizontal */
+    background-color: #ffffff; /* Couleur d'arrière-plan différente */
+    border: 2px solid #2c3e50; /* Bordure pleine */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet 3D léger */
+}
+
+/* En-tête avec nom, niveau d'étude et images */
+.entete {
+    text-align: center; /* Centrage du contenu */
+    padding: 10px;
+    background-color: #ecf0f1; /* Couleur d'arrière-plan pour l'en-tête */
+    border-bottom: 2px solid #2c3e50; /* Bordure sous l'en-tête */
+}
+
+.entete img {
+    margin: 10px;
+    border-radius: 10px; /* Coins arrondis pour les images */
+}
+
+/* Section "About Me" */
+#aboutme {
+    padding: 20px;
+    background-color: #fafafa;
+    font-style: italic;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #7f8c8d;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #bdc3c7;
+    color: #2c3e50;
+}
+
+/* Liste des livres */
+ol {
+    padding-left: 20px;
+    color: #34495e;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Style du pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-top: 2px solid #2c3e50;
+}
+
+footer a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
